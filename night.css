@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(7, 7, 51);
+    height: 100vh;
+    margin: 30px auto;
+    padding: 10px;
+    position: relative;
+}
+#container {
+    position: relative;
+}
+
+#moon{
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(white,silver,white);
+    /* position: relative; */
+    border-radius: 200px;
+    margin: 20px auto;
+    /* right: 300px; */
+    margin-left: 250px;
+    box-shadow: 3px 3px 120px 4px white;
+}
+#star1{
+    width: 20px;
+    height: 20px;
+    background-color: silver;
+    clip-path: polygon( 50% 0, 60% 30%, 76.5% 30%,60% 50%, 70% 100%, 50% 50%, 30% 100%,40% 50%, 20% 30%, 40% 30% );
+    position: absolute;
+    left: 180px;
+}
+#star2{
+    width: 20px;
+    height: 20px;
+    background-color: silver;
+    clip-path: polygon( 50% 0, 60% 30%, 76.5% 30%,60% 50%, 70% 100%, 50% 50%, 30% 100%,40% 50%, 20% 30%, 40% 30% );
+    position: absolute;
+    left: 500px;
+    bottom: 40px;
+}
+#star3{
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    margin: 70px auto;
+    clip-path: polygon( 50% 0, 60% 30%, 76.5% 30%,60% 50%, 70% 100%, 50% 50%, 30% 100%,40% 50%, 20% 30%, 40% 30% );
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+#star4{
+    width: 20px;
+    height: 15px;
+    background-color: white;
+    margin: 70px auto;
+    clip-path: polygon( 50% 0, 60% 30%, 76.5% 30%,60% 50%, 70% 100%, 50% 50%, 30% 100%,40% 50%, 20% 30%, 40% 30% );
+    position: absolute;
+    right: 450px;
+    bottom: 40px;
+}
+#house{
+    background-color: #fff;
+    position: absolute;
+    height: 120px;
+    width: 300px;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    right: 20px;
+    bottom: 320px;
+}
+#wall{
+    position: absolute;
+    background-color: grey;
+    height: 150px;
+    width: 250px;
+    right: 42px;
+    bottom: 170px;
+}
